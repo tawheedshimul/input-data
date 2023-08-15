@@ -10,58 +10,58 @@ function App() {
         <div className='bg-black'>
           <h1 className='text-yellow-200 ms-2'>JOB REQUEST FORM</h1>
         </div>
-        <div className='mt-4 grid grid-cols-3 gap-2 content-start'>
+        <div className='mt-4 grid grid-cols-3 gap-1 content-start'>
           <div className='flex mt-1'>
-            <p className='text-black mt-2 font-semibold'>Quotation Approved?</p>
+            <p className='text-black mt-2 font-semibold mr-2'>Quotation Approved?</p>
             <input className='px-2 border border-black flex-grow h-7' type="text"></input>
           </div>
           <div className='flex mt-1'>
-            <p className='text-black mt-2 font-semibold'>Job No.</p>
+            <p className='text-black mt-2 font-semibold mr-2'>Job No.</p>
             <input className='px-2 border border-black flex-grow h-7' type="text"></input>
           </div>
           <div className='flex mt-1'>
-            <p className='text-black mt-2 font-semibold'>Lead:</p>
+            <p className='text-black mt-2 font-semibold mr-2'>Lead:</p>
             <input className='px-2 border border-black flex-grow h-7' type="text"></input>
           </div>
         </div>
 
         {/* 2nd div  */}
 
-        <div className='mt-6 grid grid-cols-3 gap-2 content-start'>
+        <div className='mt-6 grid grid-cols-3 gap-1 content-start'>
           <div className='flex'>
-            <p className='text-red-500'>Date Submitted:</p>
+            <p className='text-red-500 mr-2'>Date Submitted:</p>
             <input className='px-2 border border-black flex-grow' type="text"></input>
           </div>
           <div className='flex'>
-            <p className='text-red-500'>Draft Due Date: </p>
+            <p className='text-red-500 mr-2'>Draft Due Date: </p>
             <input className='px-2 border border-black flex-grow' type="text"></input>
           </div>
           <div className='flex w-9/12'>
-            <p className='text-red-500'>Final Due Date:</p>
+            <p className='text-red-500 mr-2'>Final Due Date:</p>
             <input className='px-2 border border-black flex-grow' type="text"></input>
           </div>
           <div className='flex'>
-            <p className='text-black'>Client:</p>
+            <p className='text-black mr-2'>Client:</p>
             <input className='px-2 border border-black flex-grow' type="text"></input>
           </div>
           <div className='flex'>
-            <p className='text-black'>Contact: </p>
+            <p className='text-black mr-2'>Contact: </p>
             <input className='px-2 border border-black flex-grow' type="text"></input>
           </div>
           <div className='flex w-9/12'>
-            <p className='text-black'>Tel:</p>
+            <p className='text-black mr-2'>Tel:</p>
             <input className='px-2 border border-black flex-grow' type="text"></input>
           </div>
         </div>
         {/* 3rd div  */}
-        <div className='mt-2 grid grid-cols-3 gap-2 content-start'>
+        <div className='mt-2 grid grid-cols-3 gap-1 content-start'>
           <div>
             <div className='flex mt-1'>
-              <p className='text-black mt-2 font-semibold'>Project Title:</p>
+              <p className='text-black mt-2 font-semibold mr-2'>Project Title:</p>
               <input className='px-2 border border-black flex-grow h-7' type="text"></input>
             </div>
             <div className='flex'>
-              <p className='text-black'>Job Created by:</p>
+              <p className='text-black mr-2'>Job Created by:</p>
               <input className='px-2 border border-black flex-grow' type="text"></input>
             </div>
           </div>
@@ -83,7 +83,7 @@ function App() {
           <div>
             <div className='mt-9'>
               <div className='flex'>
-                <p className='text-black'>Other (specify):</p>
+                <p className='text-black mr-2'>Other (specify):</p>
                 <input className='px-2 border border-black flex-grow' type="text"></input>
               </div>
             </div>
@@ -133,7 +133,7 @@ function App() {
           <h1 className='text-red-600 ms-2 font-semibold'>PROJECT DESCRIPTION</h1>
         </div>
         {/* 3RD BOX SECTION MARK  */}
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 mt-5'>
           <div className='flex'>
             <div className='grid grid-cols-3'>
               <label class="customcheck w-28">
