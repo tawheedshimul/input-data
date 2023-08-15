@@ -1,0 +1,101 @@
+/* body {
+    font-family: 'Agdasima', sans-serif;
+} */
+
+.customcheck {
+    display: inline-block;
+    position: relative;
+    padding-right: 30px;
+    /* margin-right: 15px; */
+    cursor: pointer;
+}
+
+.checkinput {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.check-mark {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    outline: 1px solid black;
+}
+
+.checkinput:checked~.check-mark {
+    background-color: #2196F3;
+}
+
+.check-mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkinput:checked~.check-mark:after {
+    display: block;
+}
+
+.customcheck .check-mark:after {
+    right: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+
+/* left side input box css  */
+.custom-left-check {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    /* Add some left padding for space */
+    cursor: pointer;
+}
+
+.checkleftinput {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.check-leftmark {
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    outline: 1px solid black;
+}
+
+.checkleftinput:checked~.check-leftmark {
+    background-color: #2196F3;
+}
+
+.check-leftmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkleftinput:checked~.check-leftmark:after {
+    display: block;
+}
+
+.custom-left-check .check-leftmark:after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
